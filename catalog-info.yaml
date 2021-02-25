@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: angular-app-1
+  description: angular-app-1
+  annotations:
+    github.com/project-slug: DmitriyKhirniy/rangular-app-1
+    backstage.io/techdocs-ref: url:http://github.com/DmitriyKhirniy/rangular-app-1
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "DmitriyKhirniy"
